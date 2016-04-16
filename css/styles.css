@@ -1,0 +1,56 @@
+/* -------------------------------------------- */
+/* --------------- Css Fonts --------------- */
+/* -------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
+HTML, BODY {
+	height: 100%;
+	width: 100%;
+	font-size: 12px;
+	font-family: 'Fredoka One';
+	min-width: 320px;
+	color: #333;
+}
+
+
+* , *div{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/* -------------------------------------------- */
+/* --------------- Css Document --------------- */
+/* -------------------------------------------- */
+.wrapper{
+	width: 100%;
+	/* min-height: 100%; */
+	display: flex;
+	flex-direction: row;
+	/* align-items: center;  */
+	 justify-content: center; 
+	flex-wrap: wrap;
+}
+.container{
+	display: flex;
+	padding: 10px;
+	maring: 5px;
+	border: 2px dotted #ccc;
+	border-collapse: collapse;
+	margin-left: -2px;
+}
+
+/* -------------------------------------------- */
+/* -------------- Mediaqueries  --------------- */
+/* -------------------------------------------- */
+@media only screen and (max-width : 599px) {
+
+}
+
+@media only screen and (min-width : 600px) and (max-width : 979px) {
+
+}
+@media only screen and (min-width : 980px) {
+
+}

@@ -1,0 +1,38 @@
+/*-----------------
+LOGO Baby Cake SVG
+-----------------*/
+@keyframes displayDot{
+	0%{opacity: 1;}
+	50%{opacity: 0;}
+	100%{opacity: 0;}
+}
+@-webkit-keyframes thumb {
+	0% { -webkit-transform: rotate(0deg); }
+	1% { -webkit-transform: rotate(15deg); }
+	3% { -webkit-transform: rotate(-15deg); }
+	4% { -webkit-transform: rotate(0deg); }
+	5% { -webkit-transform: rotate(15deg); }
+	7% { -webkit-transform: rotate(-15deg); }
+	9% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(0deg); }
+}
+
+.logoBabyCake{ width: 300px; }
+
+.logoBabyCake .dot1{
+	animation: displayDot 4s linear 0s infinite forwards;
+}
+.logoBabyCake .dot2{
+	animation: displayDot 4s linear 1s infinite forwards;
+}
+.logoBabyCake .dot3{
+	animation: displayDot 4s linear 2s infinite forwards;
+}
+.logoBabyCake .cake
+{
+	-webkit-animation-name: thumb;
+	-webkit-animation-duration: 3s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}

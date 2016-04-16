@@ -1,0 +1,51 @@
+/* -------------------------------------------- */
+/* ------------ Keyframe animation ------------ */
+/* -------------------------------------------- */
+@-webkit-keyframes draw{
+	100%{
+		stroke-dashoffset: 0;
+	}
+}
+@-webkit-keyframes fillBlack{
+	100%{
+		fill: #000;
+	}
+}
+@-webkit-keyframes fillWhite{
+	100%{
+		fill: #fff;
+	}
+}
+@-webkit-keyframes strokeWhite{
+	100%{
+		stroke: #fff;
+	}
+}
+
+
+/* -------------------------------------------- */
+/* --------------- Animated logo --------------- */
+/* -------------------------------------------- */
+.logoVPwebDevelopper{ width: 300px; }
+.logoVPwebDevelopper .circle{
+	stroke: #000;
+	stroke-width: 2;
+	stroke-dasharray: 1500;
+	stroke-dashoffset: 1500;
+	-webkit-animation: draw 1s 0s linear forwards, fillBlack 1s 2s ease-out forwards;
+}
+.logoVPwebDevelopper .vp{
+	stroke: #000;
+	stroke-width: 2;
+	stroke-dasharray: 1500;
+	stroke-dashoffset: 1500;
+	-webkit-animation: draw 1.5s .2s linear forwards, fillWhite 1s  2s linear forwards;
+}
+.logoVPwebDevelopper .job{
+	stroke: #000;
+	fill: transparent;
+	stroke-width: 2;
+	stroke-dasharray: 1500;
+	stroke-dashoffset: 1500;
+	-webkit-animation: draw 5s 2.5s linear forwards, strokeWhite 1s  2s linear forwards, fillWhite 1s  2s linear forwards;
+}

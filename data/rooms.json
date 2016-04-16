@@ -1,0 +1,38 @@
+[
+	{
+		"name" : "Paris",
+		"free" : false
+	},
+	{
+		"name" : "Berlin",
+		"free" : true
+	},
+	{
+		"name" : "Madrid",
+		"free" : true
+	},
+	{
+		"name" : "Bangkok",
+		"free" : false
+	},
+	{
+		"name" : "London",
+		"free" : true
+	},
+	{
+		"name" : "Hong Kong",
+		"free" : true
+	},
+	{
+		"name" : "Tokyo",
+		"free" : true
+	},
+	{
+		"name" : "Rio",
+		"free" : false
+	},
+	{
+		"name" : "Moscou",
+		"free" : true
+	}
+]
